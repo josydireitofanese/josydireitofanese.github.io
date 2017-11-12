@@ -1,0 +1,25 @@
+.card .card-content .title {
+	color: #363636;
+}
+
+.time-counting,
+.time-today,
+.time-expired {
+	display: none;
+}
+
+.is-counting .time-counting {
+	display: block;
+}
+
+.is-today .time-today {
+	display: block;
+}
+
+.is-expired .time-expired {
+	display: block;
+}
+
+.msg {
+	margin-top: 30px;
+}
